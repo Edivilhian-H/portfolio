@@ -11,6 +11,22 @@ a{
   text-decoration: none;
 }
 
+
+
+/*===ROOT===*/
+
+:root{
+
+--color1:  #1f0310 ;
+--color2:  #442433 ;
+--color3:  #a3d95b ;
+--color4:  #aae3ab ;
+--color5:  #f6f0bc ;
+
+}
+
+
+
 ul{
   list-style: none;
 }
@@ -25,7 +41,7 @@ body{
 
 
 #header{
-  background-color: aqua;
+  background-color: var(--color2);
   text-align: center;
 }
 
